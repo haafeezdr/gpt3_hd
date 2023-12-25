@@ -6,16 +6,16 @@ const WhatGPT3 = () => {
   return (
     <div className='gpt3__whatgpt3 section__margin' id='wgpt3'>
        <div className='gpt3__whatgpt3-feature'>
-          <Feature />
+          <Feature title="What is GPT-3" text="We so opinion friends me message as delight. Whole front do of plate heard oh. His mistress ladyshipathiessen dependent. Matricesewhiptoiseleu, Chevronsithatissimilisthe, theydure." />
        </div>
        <div className='gpt3__whatgpt3-heading'>
            <h1 className='gradient__text'>The possibilities are beyond your imagination</h1> 
            <p>Explore the Library</p>
        </div>
        <div className='gpt3__whatgpt3-container'>
-          <Feature />
-          <Feature />
-          <Feature />
+          <Feature title="Chatbots" text="We so opinion friends me message as delight. Whole front do of plate heard oh." />
+          <Feature title="Knowledgebase" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
+          <Feature title="Education" text="At jointure ladyship an insisted so humanity he. Friendly Bachelor entrance to on by. As put impossible own apartments b"  />
        </div>
     </div>
   )
