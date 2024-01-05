@@ -18,7 +18,7 @@ const featuresData = [
   },
   {
     title: 'Really boy law county',
-    text: 'At jointure ladyship an insisted so humanity he. Friendly Bachelor entrance to on by. As put impossible own apartments b',
+    text: 'The perform of the  world is not a good place and to those that feel it is a good chance that the world will not be cconneted in this way so do that',
   },
 ]
 const Features = () => {
