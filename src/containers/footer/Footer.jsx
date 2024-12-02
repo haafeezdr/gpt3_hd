@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import gpt3Logo  from '../../assets/logo.svg'
+
 
 const Footer = () => {
   return (
@@ -16,8 +16,7 @@ const Footer = () => {
 
         <div className='gpt3__footer-links'>
             <div className='gpt3__footer-links_logo'>
-                <img src={gpt3Logo} alt="logo" />
-                <p>Mararaba K12 182 DK Abuja, All Rights Reserved</p>
+                <p>First avenue, fillin sukuwa, jos All Rights Reserved</p>
             </div>
             <div className='gpt3__footer-links_div'>
                 <h4>Links</h4>
@@ -33,14 +32,14 @@ const Footer = () => {
             </div>
             <div className='gpt3__footer-links_div'>
                 <h4>Get in touch</h4>
-                <p>Mararaba K12 182 DK Abuja</p>
-                <p>08098671038</p>
-                <p>haafeezdaiyab@gmail.com</p>
+                <p>First avenue, fillin sukuwa, jos</p>
+                <p>08034980051</p>
+                <p>alsacamng@gmail.com</p>
             </div>
            </div> 
 
         <div className='gpt3__footer-copyright'>
-            <p>@2021 GPT-3. All rights reserved.</p>
+            <p>@2024 ALSACAM. All rights reserved.</p>
         </div>    
     </div>
   )

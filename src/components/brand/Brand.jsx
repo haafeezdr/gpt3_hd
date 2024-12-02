@@ -1,25 +1,31 @@
 import React from 'react'
 import './brand.css'
-import { google, slack, atlassian, dropbox, shopify,} from './imports'
+import { gold, colban, copper, iron, lithium } from './imports'
 
 const Brand = () => {
   return (
     <div className='gpt3__brand section__padding'>
-      <div>
-        <img src={google} alt="google" />
+      <div className='gpt3__brand-div'>
+        <img src={lithium} alt="lithium" />
+        <h1>Lithium</h1>
       </div>
-      <div>
-        <img src={slack} alt="slack" />
+      <div className='gpt3__brand-div'>
+        <img src={gold} alt="gold" />
+        <h1>Gold</h1>
       </div>
-      <div>
-        <img src={atlassian} alt="atlassian" />
+      <div className='gpt3__brand-div'>
+        <img src={colban} alt="colban" />
+        <h1>Coltan</h1>
       </div>
-      <div>
-        <img src={dropbox} alt="dropbox" />
+      <div className='gpt3__brand-div'>
+        <img src={copper} alt="copper" />
+        <h1>Copper</h1>
       </div>
-      <div>
-        <img src={shopify} alt="shopify" />
+      <div className='gpt3__brand-div'>
+        <img src={iron} alt="iron" />
+        <h1>Iron</h1>
       </div>
+   
     </div>
   )
 }

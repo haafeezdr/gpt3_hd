@@ -1,7 +1,7 @@
 import React from 'react';
 import './blog.css';
 import { Article } from '../../components';
-import { blog01, blog02, blog03, blog04, blog05 } from './imports';
+import { blog1, blog2, blog3, blog4, blog5 } from './imports';
 
 const Blog = () => {
   return (
@@ -13,14 +13,14 @@ const Blog = () => {
 
       <div className='gpt3__blog-container'>
         <div className='gpt3__blog-container_groupA'>
-          <Article imageUrl={blog01} date="Sep 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+          <Article imageUrl={blog1} date="Sep 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
           
         </div>
         <div className='gpt3__blog-container_groupB'>
-          <Article imageUrl={blog02} date="Sep 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-          <Article imageUrl={blog03} date="Sep 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-          <Article imageUrl={blog04} date="Sep 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-          <Article imageUrl={blog05} date="Sep 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+          <Article imageUrl={blog2} date="Sep 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+          <Article imageUrl={blog3} date="Sep 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+          <Article imageUrl={blog4} date="Sep 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+          <Article imageUrl={blog5} date="Sep 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
         </div>
       </div>
     </div>
